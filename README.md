@@ -1,1 +1,1 @@
-page: https://isatutumi.github.io/calculadora-media/
+page: https://isatutumi-calculadora-media.vercel.app/
