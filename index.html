@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Médias</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Calculadora de Médias</h1>
+        </header>
+        <form action="" id="form-atividade">
+            <select id="materia" name="materia" placeholder="Matéria" required>
+                <option value="">--Escolha uma matéria--</option>
+                <option value="Artes">Artes</option>
+                <option value="Biologia">Biologia</option>
+                <option value="Educação Física">Educação Física</option>
+                <option value="Física">Física</option>
+                <option value="Geografia">Geografia</option>
+                <option value="História">História</option>
+                <option value="Língua Portuguesa">Língua Portuguesa</option>
+                <option value="Matemática">Matemática</option>
+                <option value="Química">Química</option>
+            </select>
+            <input type="number" name="" id="nota-atividade" placeholder="Nota da matéria" required min="0" max="10">
+            <button type="submit">Adicionar</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome da matéria</th>
+                    <th>Nota</th>
+                    <th>Situação</th>
+                </tr>
+            </thead>
+            <tbody>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>Média final</td>
+                    <td id="media-final-valor">---</td>
+                    <td id="media-final-resultado">---</td>
+                </tr>
+            </tfoot>
+        </table>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
